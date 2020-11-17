@@ -1,3 +1,3 @@
-<?php  return 'return "gg";
+<?php  return 'return "site/templates/default";
 return;
 ';

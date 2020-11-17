@@ -7,7 +7,6 @@
  * For complete copyright and license information, see the COPYRIGHT and LICENSE
  * files found in the top-level directory of this distribution.
  */
-$modx->cacheManager->refresh();
 
 $tstart= microtime(true);
 
@@ -50,6 +49,7 @@ $modx->startTime= $tstart;
 /* Initialize the default 'web' context */
 $modx->initialize('web');
 
+$modx->cacheManager->refresh();
 /* execute the request handler */
 if (!MODX_API_MODE) {
     $modx->handleRequest();

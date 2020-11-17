@@ -4,6 +4,9 @@
     'allow_tags_in_post' => '1',
     'modRequest.class' => 'modManagerRequest',
   ),
+  'aliasMap' => 
+  array (
+  ),
   'webLinkMap' => 
   array (
   ),
@@ -27,15 +30,25 @@
     ),
     'OnManagerPageBeforeRender' => 
     array (
+      2 => '2',
       1 => '1',
     ),
     'OnPluginFormPrerender' => 
     array (
       1 => '1',
     ),
+    'OnRichTextBrowserInit' => 
+    array (
+      2 => '2',
+    ),
+    'OnRichTextEditorInit' => 
+    array (
+      2 => '2',
+    ),
     'OnRichTextEditorRegister' => 
     array (
       1 => '1',
+      2 => '2',
     ),
     'OnSnipFormPrerender' => 
     array (
@@ -201,6 +214,24 @@ if ($script) {
       'moduleguid' => '',
       'static' => '0',
       'static_file' => 'ace/elements/plugins/ace.plugin.php',
+    ),
+    2 => 
+    array (
+      'id' => '2',
+      'source' => '0',
+      'property_preprocess' => '0',
+      'name' => 'CKEditor',
+      'description' => 'CKEditor WYSIWYG editor plugin for MODx Revolution',
+      'editor_type' => '0',
+      'category' => '0',
+      'cache_type' => '0',
+      'plugincode' => '',
+      'locked' => '0',
+      'properties' => NULL,
+      'disabled' => '0',
+      'moduleguid' => '',
+      'static' => '1',
+      'static_file' => 'ckeditor/elements/plugins/ckeditor.plugin.php',
     ),
   ),
   'policies' => 
