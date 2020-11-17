@@ -10,8 +10,8 @@ $gray:#f7f7fd;
 $heading-color:#000;
 
 //Theme color
-$theme-color: #fc3f00;
-$theme-color2: #222222;
+$theme-color: #0066af;
+$theme-color2: #ffec00;
 $theme-color3: #f27420;
 $theme-color4: #ff3500;
 
@@ -109,6 +109,9 @@ $blue-bg1:#00163e;
 .theme-bg {
 	background:$theme-color;
 }
+.theme-bg-secondary {
+    background: $theme-color2;
+}
 .brand-bg{
 	background: $brand-bg;
 }
@@ -126,4 +129,7 @@ $blue-bg1:#00163e;
 }
 .theme-color {
 	color: $theme-color;
+}
+.theme-color-secondary {
+    color: $theme-color2;
 }
