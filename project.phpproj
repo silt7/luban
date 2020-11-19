@@ -76,7 +76,7 @@
     <Folder Include="site\templates\default\pages\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="htaccess" />
+    <Content Include=".htaccess" />
     <Content Include="site\templates\default\about.html" />
     <Content Include="site\templates\default\assets\css\animate.min.css" />
     <Content Include="site\templates\default\assets\css\bootstrap.min.css" />
@@ -92,7 +92,7 @@
     <Content Include="site\templates\default\assets\css\slick.css" />
     <Content Include="site\templates\default\assets\css\slicknav.css" />
     <Content Include="site\templates\default\assets\css\style.css" />
-    <Content Include="site\templates\default\assets\css\style.map" />
+    <Content Include="site\templates\default\assets\css\style.css.map" />
     <Content Include="site\templates\default\assets\css\themify-icons.css" />
     <Content Include="site\templates\default\assets\css\ticker-style.css" />
     <Content Include="site\templates\default\assets\fonts\fa-brands-400.eot" />

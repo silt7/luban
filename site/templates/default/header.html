@@ -8,8 +8,8 @@
                         <div class="row d-flex justify-content-between align-items-center">
                             <div class="header-info-left">
                                 <ul>
-                                    <li><img src="[[pathToTemplate]]/assets/img/icon/header_icon1.png" alt="">34ºc, Sunny </li>
-                                    <li><img src="[[pathToTemplate]]/assets/img/icon/header_icon1.png" alt="">Tuesday, 18th June, 2019</li>
+                                    <li><img src="[[pathToTemplate]]/assets/img/icon/header_icon1.png" alt="">3ºc, Дождь </li>
+                                    <li><img src="[[pathToTemplate]]/assets/img/icon/header_icon2.png" alt="">Четверг, 12 Октября, 2020</li>
                                 </ul>
                             </div>
                             <div class="header-info-right">
@@ -17,6 +17,8 @@
                                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                     <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                                     <li> <a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                    <li></li><li></li>
+                                    <li> <a href="#"><i class="fa fa-eye"></i></a> <span class="white-color">&nbsp&nbspВерсия для слабовидящих</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -25,17 +27,15 @@
             </div>
             <div class="header-mid d-none d-md-block">
                 <div class="container">
-                    <div class="row d-flex align-items-center">
-                        <!-- Logo -->
-                        <div class="col-xl-3 col-lg-3 col-md-3">
-                            <div class="logo">
-                                <a href="index.html"><img src="[[pathToTemplate]]/assets/img/logo/logo.gif" alt=""></a>
-                            </div>
+                    <div class="row d-flex align-items-center mb-10 mt-10">
+                        <div class="logo f-left">
+                            <a href="index.html"><img src="[[pathToTemplate]]/assets/img/logo/logo.gif" alt="" height="100px"></a>
                         </div>
-                        <div class="col-xl-9 col-lg-9 col-md-9">
-                            <div class="header-banner f-right ">
-                                <img src="[[pathToTemplate]]/assets/img/hero/header_card.jpg" alt="">
-                            </div>
+                        <div class="f-left ml-20">
+                            <h5>Муниципальное образование<br>
+                            Любанское городское поселение</h5>
+                            <hr class="my-0 mt">
+                            <h6 class="mt-1">Тосненского района, Ленинградской области</h6>
                         </div>
                     </div>
                 </div>
@@ -46,19 +46,41 @@
                         <div class="col-xl-10 col-lg-10 col-md-12 header-flex">
                             <!-- sticky -->
                             <div class="sticky-logo">
-                                <a href="index.html"><img src="[[pathToTemplate]]/assets/img/logo/logo.png" alt=""></a>
+                                <a href="index.html"><img src="[[pathToTemplate]]/assets/img/logo/logo.gif" height="70px"></a>
                             </div>
                             <!-- Main-menu -->
                             <div class="main-menu d-none d-md-block">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="categori.html">Category</a></li>
-                                        <li><a href="about.html">About</a></li>
-                                        <li><a href="latest_news.html">Latest News</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
                                         <li>
-                                            <a href="#">Pages</a>
+                                            <a href="">О Любани</a>
+                                            <ul class="submenu">
+                                                <li><a href="">История</a></li>
+                                                <li><a href="">Воинская слава</a></li>
+                                                <li><a href="">Праздники</a></li>
+                                                <li><a href="">Моложёжный совет</a></li>
+                                                <li><a href="">Генеральный план</a></li>
+                                                <li><a href="">Улично-дорожная сеть</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="">Администрация</a>
+                                            <ul class="submenu">
+                                                <li><a href="">Контактные телефоны</a></li>
+                                                <li><a href="">Глава района</a></li>
+                                                <li><a href="">Состав совета депутатов</a></li>
+                                                <li><a href="">Обращения граждан</a></li>
+                                                <li><a href="">График приёма граждан</a></li>
+                                                <li><a href="">Административная комиссия</a></li>
+                                                <li><a href="">Финансы</a></li>
+                                                <li><a href="">Строительство</a></li>
+                                                <li><a href="">Центр занятости населения</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="">Деятельность</a></li>
+                                        <li><a href="">Законодательство</a></li>
+                                        <li>
+                                            <a href="#">Обращения граждан</a>
                                             <ul class="submenu">
                                                 <li><a href="elements.html">Element</a></li>
                                                 <li><a href="blog.html">Blog</a></li>
@@ -92,3 +114,17 @@
     </div>
     <!-- Header End -->
 </header>
+<style>
+    .main-header .main-menu ul ul.submenu {
+        width: 1200px;
+    }
+    .main-header .main-menu ul li {
+        position: unset;
+    }
+    .main-header .main-menu ul ul.submenu > li {
+        display: inline-block;
+        width: 20%;
+        margin: 10px;
+        padding-left: 5px
+    }
+</style>
