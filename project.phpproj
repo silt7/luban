@@ -32,6 +32,7 @@
     <IncludeDebugInformation>false</IncludeDebugInformation>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="config.core.php" />
     <Compile Include="index.php" />
     <Compile Include="router.php" />
     <Compile Include="site\templates\default\contact_process.php" />
