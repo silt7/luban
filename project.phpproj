@@ -34,10 +34,12 @@
   <ItemGroup>
     <Compile Include="config.core.php" />
     <Compile Include="index.php" />
+    <Compile Include="manager\config.core.php" />
     <Compile Include="router.php" />
     <Compile Include="site\templates\default\contact_process.php" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="manager\" />
     <Folder Include="site\" />
     <Folder Include="site\templates\" />
     <Folder Include="site\templates\default\" />
@@ -379,6 +381,9 @@
     <Content Include="site\templates\default\Magazine_News Doc\syntax-highlighter\styles\shThemeMidnight.css" />
     <Content Include="site\templates\default\Magazine_News Doc\syntax-highlighter\styles\shThemeRDark.css" />
     <Content Include="site\templates\default\main.html" />
+    <Content Include="site\templates\default\pages\contact.html" />
+    <Content Include="site\templates\default\pages\contacts.html" />
+    <Content Include="site\templates\default\pages\history.html" />
     <Content Include="site\templates\default\readme.txt" />
     <Content Include="site\templates\default\single-blog.html" />
   </ItemGroup>
