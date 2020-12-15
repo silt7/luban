@@ -28,7 +28,7 @@
             <div class="header-mid d-none d-md-block">
                 <div class="container">
                     <div class="row d-flex align-items-center mb-10 mt-10">
-
+                        <div class="col-lg-8">
                             <div class="logo f-left">
                                 <a href="index.html"><img src="[[pathToTemplate]]/assets/img/logo/logo.gif" alt="" height="90px"></a>
                             </div>
@@ -40,6 +40,15 @@
                                 <hr class="my-0 mt">
                                 <h6 class="mt-1">Тосненского района, Ленинградской области</h6>
                             </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="row justify-content-end mr-0" style="margin-top:-10px; margin-bottom:5px;">
+                                <!--<i class="fa fa-phone" style="transform: rotate(110deg); margin-right: 10px"></i>--><h5>8 (800) 123-45-67</h5>
+                            </div>
+                            <div class="row justify-content-end mr-0"><a href="#" class="genric-btn theme-bg-secondary radius large">Написать обращение &nbsp
+                                <img src="site/templates/default/assets/img/icon/mail-icon.svg" width="25px">
+                            </a></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -60,8 +69,22 @@
                                             <ul class="submenu">
                                                 <li><a href="contacts">Контакты</a></li>
                                                 <li><a href="history">История Любани</a></li>
-                                                <li><a href="404">Полномочия, задачи, цели</a></li>
-                                                <li><a href="404">Руководство</a></li>
+                                                <li>
+                                                    <a href="404" class="else-sub">Полномочия, задачи, цели</a>
+                                                    <ul class="submenu sub-2">
+                                                        <li><a href="404">Совет дерутатов</a></li>
+                                                        <li><a href="404">Администрация</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li >
+                                                    <a href="management" class="else-sub">Руководство</a>
+                                                    <ul class="submenu sub-2">
+                                                        <li><a href="management/glava">Глава поселения</a></li>
+                                                        <li><a href="management/administration">Глава администрации</a></li>
+                                                        <li><a href="404">Директор МКУУСРБ</a></li>
+                                                        <li><a href="management/sovet">Совет Депутатов</a></li>
+                                                    </ul>
+                                                </li>
                                                 <li><a href="404">Воинская слава</a></li>
                                             </ul>
                                         </li>
@@ -106,7 +129,7 @@
                                             <a href="#">Ещё</a>
                                             <ul class="submenu">
                                                 <li><a href="404">Мероприятия</a></li>
-                                                <li><a href="404">Защита населения</a></li>
+                                                <li><a href="404">ГО и ЧС</a></li>
                                                 <li><a href="404">Результаты проверок</a></li>
                                                 <li><a href="404">Заявления руководителей</a></li>
                                             </ul>
@@ -121,7 +144,6 @@
                                 <div class="search-box">
                                     <form action="#">
                                         <input type="text" placeholder="Search">
-
                                     </form>
                                 </div>
                             </div>
@@ -163,5 +185,18 @@
     }
     #navigation a{
         cursor: pointer;
+    }
+    .submenu.sub-2{
+        left: 100% !important;
+        border-top: none !important; 
+        margin-top:-40px
+    }
+    .else-sub::after{
+        content: '\203A';
+        text-align: right;
+        float:right;
+        color: gray;
+        display: inline-block;
+        vertical-align: middle;
     }
 </style>

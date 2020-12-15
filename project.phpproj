@@ -76,6 +76,7 @@
     <Folder Include="site\templates\default\Magazine_News Doc\syntax-highlighter\" />
     <Folder Include="site\templates\default\Magazine_News Doc\syntax-highlighter\scripts\" />
     <Folder Include="site\templates\default\Magazine_News Doc\syntax-highlighter\styles\" />
+    <Folder Include="site\templates\default\components\" />
     <Folder Include="site\templates\default\pages\" />
   </ItemGroup>
   <ItemGroup>
@@ -83,6 +84,7 @@
     <Content Include="site\templates\default\about.html" />
     <Content Include="site\templates\default\assets\css\animate.min.css" />
     <Content Include="site\templates\default\assets\css\bootstrap.min.css" />
+    <Content Include="site\templates\default\assets\css\custom.css" />
     <Content Include="site\templates\default\assets\css\flaticon.css" />
     <Content Include="site\templates\default\assets\css\fontawesome-all.min.css" />
     <Content Include="site\templates\default\assets\css\gijgo.css" />
@@ -314,6 +316,7 @@
     <Content Include="site\templates\default\assets\scss\_youtube.scss" />
     <Content Include="site\templates\default\blog.html" />
     <Content Include="site\templates\default\categori.html" />
+    <Content Include="site\templates\default\components\sideMenu.tpl" />
     <Content Include="site\templates\default\contact.html" />
     <Content Include="site\templates\default\details.html" />
     <Content Include="site\templates\default\elements.html" />
@@ -384,6 +387,7 @@
     <Content Include="site\templates\default\pages\contact.html" />
     <Content Include="site\templates\default\pages\contacts.html" />
     <Content Include="site\templates\default\pages\history.html" />
+    <Content Include="site\templates\default\pages\management.html" />
     <Content Include="site\templates\default\readme.txt" />
     <Content Include="site\templates\default\single-blog.html" />
   </ItemGroup>

@@ -1,0 +1,12 @@
+﻿.card-managments {
+    margin-top: 20px;
+    background: #f9f9ff;
+    border: 1px solid #eee;
+    padding: 0;
+}
+.card-managments h6{
+    margin-top: 30px;
+}
+.card-managments b{
+    color: #000;
+}

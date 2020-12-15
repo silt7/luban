@@ -34,13 +34,19 @@
                     </div>
                     <!-- Riht content -->
                     <div class="col-lg-4 mb-30">
-                        <div class="w-100 h-100 d-flex justify-content-center align-items-end flex-wrap" style="background: #f9f9ff; border-radius: 7px 7px 0 0;">
+                        <div class="w-100 h-100 d-flex justify-content-center flex-wrap">
+                            [[$sideMenu]]
+                        </div>
+
+                        <!--
+                            
                             <img src="[[pathToTemplate]]/assets/img/main/konvert2.png" alt="" height="50%">
                             <br>
                             <a href="#" class="genric-btn theme-bg-secondary radius e-large mb-20" style="height:50px">Написать обращение &nbsp
                                 <img src="site/templates/default/assets/img/icon/mail-icon.svg" width="25px">
                             </a>
-                        </div>
+                        -->
+
                         <!--<div class="trand-right-single d-flex">
                             <div class="trand-right-img">
                                 <img src="[[pathToTemplate]]/assets/img/trending/right1.jpg" alt="">
@@ -605,5 +611,12 @@
     .sticky-bar .main-menu a{
         padding-top: 39px !important;
         padding-bottom: 39px !important;
+    }
+    .side-menu li{
+        border-right: none;
+        border-left: 4px solid #0066af;
+    }
+    .side-menu ul.submenu {
+        left: -205px;
     }
 </style>
