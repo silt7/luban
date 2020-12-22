@@ -10,3 +10,42 @@
 .card-managments b{
     color: #000;
 }
+
+.progress-table-wrap a{
+    color:#000;
+}
+.ajax-form {
+    background: #f9f9ff;
+}
+.ajax-form .single-input {
+    background: #fff;
+}
+.ajax-form .nice-select {
+    background: #fff;
+}
+.ajax-form .nice-select .current{
+    color: #858585;
+    font-size: 16px;
+    font-weight: 400;
+}
+.ajax-form .single-input, .ajax-form .nice-select{
+    width: 90%;
+    box-shadow: 0px 2px 5px #e4e4e4;
+    margin-bottom: 15px;
+}
+.ajax-form .count-doc{
+    margin: 15px 0;
+    color: #415094;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.ajax-form .genric-btn{
+    margin-top: 20px;
+    width: 45%;
+}
+@media only screen and (min-width: 900px) {
+    .progress-table-wrap {
+        overflow-x: hidden;
+    }
+}

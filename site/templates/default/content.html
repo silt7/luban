@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="row">
+        {if $_modx->resource.menutitle == 'no_menu'}
+        <div class="col-12">
+        {else}
+        <div class="col-4">[[$sideMenu]]</div>
+        
+        <div class="col-8">
+        {/if}
+            {var $child = $_modx->getChildIds($_modx->resource.id, 1)}
+            {'!pdoResources' | snippet: [
+            'resources' => $_modx->resource.id,
+            'includeContent' => 1,
+            'tpl' => '@INLINE {$content}',
+            ]}
+        </div>
+    </div>
+</div>

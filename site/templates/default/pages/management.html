@@ -1,55 +1,47 @@
-<div class="container" style="margin-top: 20px">
-    <div class="row">
-        <div class="col-4">[[$sideMenu]]</div>
+<h3>Руководство</h3>
 
-        <div class="col-8">
-            <h3>Руководство</h3>
-
-            <div style="border-bottom: 3px solid #0066af">&nbsp;</div>
-                {if $_modx->resource.id == 27} 
-                [[
-                pdoResources?
-                    &parents=`27`
-                    &resources=`-41`
-                    &tpl=`person`
-                    &includeTVs=`phone, position, photo`
-                    &sortby = `{"id":"ASC"}`
-                    &limit = 50
-                ]]
-                {/if}
-                {if $_modx->resource.id == 28} 
-                [[
-                pdoResources?
-                    &parents=`27`
-                    &resources=`28`
-                    &tpl=`person`
-                    &includeTVs=`phone, position, photo`
-                    &sortby = `{"id":"ASC"}`
-                    &limit = 50
-                ]]
-                {/if}
-                {if $_modx->resource.id == 29} 
-                [[
-                pdoResources?
-                    &parents=`27`
-                    &resources=`29`
-                    &tpl=`person`
-                    &includeTVs=`phone, position, photo`
-                    &sortby = `{"id":"ASC"}`
-                    &limit = 50
-                ]]
-                {/if}
-                {if $_modx->resource.id == 41} 
-                [[
-                pdoResources?
-                    &parents=`27`
-                    &resources=`-29, -41`
-                    &tpl=`person`
-                    &includeTVs=`phone, position, photo`
-                    &sortby = `{"id":"ASC"}`
-                    &limit = 50
-                ]]
-                {/if}
-        </div>
-    </div>
-</div>
+<div style="border-bottom: 3px solid #0066af">&nbsp;</div>
+    {if $_modx->resource.id == 27} 
+    [[
+    pdoResources?
+        &parents=`27`
+        &resources=`-41`
+        &tpl=`person`
+        &includeTVs=`phone, position, photo`
+        &sortby = `{"id":"ASC"}`
+        &limit = 50
+    ]]
+    {/if}
+    {if $_modx->resource.id == 28} 
+    [[
+    pdoResources?
+        &parents=`27`
+        &resources=`28`
+        &tpl=`person`
+        &includeTVs=`phone, position, photo`
+        &sortby = `{"id":"ASC"}`
+        &limit = 50
+    ]]
+    {/if}
+    {if $_modx->resource.id == 29} 
+    [[
+    pdoResources?
+        &parents=`27`
+        &resources=`29`
+        &tpl=`person`
+        &includeTVs=`phone, position, photo`
+        &sortby = `{"id":"ASC"}`
+        &limit = 50
+    ]]
+    {/if}
+    {if $_modx->resource.id == 41} 
+    [[
+    pdoResources?
+        &parents=`27`
+        &resources=`-29, -41`
+        &tpl=`person`
+        &includeTVs=`phone, position, photo`
+        &sortby = `{"id":"ASC"}`
+        &limit = 50
+    ]]
+    {/if}

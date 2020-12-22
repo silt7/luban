@@ -57,6 +57,8 @@
     <Folder Include="site\templates\default\assets\img\hero\" />
     <Folder Include="site\templates\default\assets\img\icon\" />
     <Folder Include="site\templates\default\assets\img\logo\" />
+    <Folder Include="site\templates\default\assets\img\main\" />
+    <Folder Include="site\templates\default\assets\img\managments\" />
     <Folder Include="site\templates\default\assets\img\news\" />
     <Folder Include="site\templates\default\assets\img\offers\" />
     <Folder Include="site\templates\default\assets\img\our_blog\" />
@@ -184,6 +186,10 @@
     <Content Include="site\templates\default\assets\img\logo\form-iocn.png" />
     <Content Include="site\templates\default\assets\img\logo\logo.png" />
     <Content Include="site\templates\default\assets\img\logo\logo2_footer.png" />
+    <Content Include="site\templates\default\assets\img\main\konvert.png" />
+    <Content Include="site\templates\default\assets\img\main\konvert2.png" />
+    <Content Include="site\templates\default\assets\img\main\priemnaya.jpg" />
+    <Content Include="site\templates\default\assets\img\managments\noPhoto.png" />
     <Content Include="site\templates\default\assets\img\news\icon-fb.png" />
     <Content Include="site\templates\default\assets\img\news\icon-ins.png" />
     <Content Include="site\templates\default\assets\img\news\icon-tw.png" />
@@ -318,6 +324,7 @@
     <Content Include="site\templates\default\categori.html" />
     <Content Include="site\templates\default\components\sideMenu.tpl" />
     <Content Include="site\templates\default\contact.html" />
+    <Content Include="site\templates\default\content.html" />
     <Content Include="site\templates\default\details.html" />
     <Content Include="site\templates\default\elements.html" />
     <Content Include="site\templates\default\footer.html" />
