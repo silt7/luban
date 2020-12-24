@@ -393,7 +393,6 @@
     <Content Include="site\templates\default\main.html" />
     <Content Include="site\templates\default\pages\contact.html" />
     <Content Include="site\templates\default\pages\contacts.html" />
-    <Content Include="site\templates\default\pages\history.html" />
     <Content Include="site\templates\default\pages\management.html" />
     <Content Include="site\templates\default\readme.txt" />
     <Content Include="site\templates\default\single-blog.html" />

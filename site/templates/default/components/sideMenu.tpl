@@ -26,9 +26,10 @@
             <li><a href="#">Новая кадастровая стоимость</a></li>
         </ul>
     </li>
-    <li><a href="#">Поддержка малого и среднего предпринимательства</a></li>
     <li><a href="#">Прокуратура информирует</a></li>
     <li><a href="#">Полномочия и задачи</a></li>
+    <li><a href="#">Молодёжная политика</a></li>
+    <li><a href="#">Поддержка малого и среднего предпринимательства</a></li>
 </ul>
 
 <style>
@@ -39,10 +40,10 @@
     }
     .side-menu li{
         background: #f9f9ff;
-        margin: 0px 20px 7px 0px;
+        /*margin: 0px 20px 8px 0px;*/
         box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.1);
         width: 100%;
-        height: 55px;
+        height: 52px;
         position:relative;
     }
     .side-menu li a {
