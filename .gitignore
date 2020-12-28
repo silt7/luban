@@ -2,6 +2,7 @@
 /core/cache
 /core/config 
 /manager/config.core.php
+/attachments
 config.core.php
 .htaccess
 ## Ignore Visual Studio temporary files, build results, and

@@ -1,38 +1,11 @@
 <ul class="side-menu">
-    <li><a href="#">Муниципальный контроль</a></li>
-    <li>
-        <a href="#">Жилищная политика</a>
-        <ul class="submenu">
-            <li><a href="#">Административные регламенты</a></li>
-            <li><a href="#">Жилищная комиссия</a></li>
-            <li><a href="#">Стоимость 1кв. м. жилья</a></li>
-            <li><a href="#">Учёт нуждающихся</a></li>
-            <li><a href="#">Жилищные программы</a></li>
-        </ul>
-    </li>
-    <li>
-        <a href="#">Муниципальные программы</a>
-        <ul class="submenu">
-            <li><a href="#">Отчёты</a></li>
-            <li><a href="#">Постановления</a></li>
-        </ul>
-    </li>
-    <li>
-        <a href="#">Муниципальное имущество</a>
-        <ul class="submenu">
-            <li><a href="#">Конкурcы, аукционы</a></li>
-            <li><a href="#">Нормативно-правовые акты</a></li>
-            <li><a href="#">Земельные участки</a></li>
-            <li><a href="#">Новая кадастровая стоимость</a></li>
-        </ul>
-    </li>
-    <li><a href="#">Прокуратура информирует</a></li>
-    <li><a href="#">Полномочия и задачи</a></li>
-    <li><a href="#">Молодёжная политика</a></li>
-    <li><a href="#">Поддержка малого и среднего предпринимательства</a></li>
+    [[pdoResources? &parents=`0` &resources=`1089` &includeContent=`1` &tpl=`@INLINE {{+content}}`]]
 </ul>
 
 <style>
+    .side-menu{
+        width: 100%;
+    }
     .side-menu a{
         color: #002e5b;
         font-weight: 500;
@@ -87,5 +60,6 @@
     }
     .side-menu ul.submenu li a{
         padding: 10px;
+        transition: none;
     }
 </style>

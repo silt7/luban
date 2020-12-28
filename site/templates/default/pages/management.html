@@ -34,11 +34,22 @@
         &limit = 50
     ]]
     {/if}
+    {if $_modx->resource.id == 1090} 
+    [[
+    pdoResources?
+        &parents=`0`
+        &resources=`1090`
+        &tpl=`person`
+        &includeTVs=`phone, position, photo`
+        &sortby = `{"id":"ASC"}`
+        &limit = 50
+    ]]
+    {/if}
     {if $_modx->resource.id == 41} 
     [[
     pdoResources?
         &parents=`27`
-        &resources=`-29, -41`
+        &resources=`-29, -41, -1090`
         &tpl=`person`
         &includeTVs=`phone, position, photo`
         &sortby = `{"id":"ASC"}`

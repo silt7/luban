@@ -1,20 +1,35 @@
 <div class="container">
-    <div class="section-top-border">
-        <h3 class="mb-30">Контакты</h3>
-        <div class="progress-table-wrap">
-            <div class="progress-table">
-                <div class="table-head">
-                    <div class="country ml-30">Имя</div>
-                    <div class="percentage ml-30">Должность</div>
-                    <div class="serial ml-30">Телефон</div>
+    <div class="row mt-30">
+        <form class="ajax-form col-lg-3">
+            <div class="count-doc"><span>Всего докуметов: </span><span class="ajax-count"></span></div>
+        	<!-- Sort Fields -->
+        	<input type="hidden" name="sortby" value="pageTitle">
+        	<input type="hidden" name="sortdir" value="ASC">
+        	<!-- Sort End -->
+
+            <input type="text" name="fio" class="single-input" placeholder="Имя">
+        	<input type="text" name="phone" class="single-input" placeholder="Телефон">
+        	<input type="text" name="position" class="single-input" placeholder="Должность">
+    
+    		<a href="#" class="genric-btn theme-bg radius ajax-start">Найти</a>
+    		<a href="#" class="genric-btn info-border radius ajax-reset">Сбросить</a>
+        </form>
+        <div class="col-lg-9" style="padding: 0 0 0 10px;">
+            <div class="progress-table-wrap">
+                <div class="progress-table">
+                    <div class="table-head">
+                        <div class="country ml-30">Имя</div>
+                        <div class="percentage ml-30">Должность</div>
+                        <div class="serial ml-30">Телефон</div>
+                    </div>
+                    <div class="ajax-container">
+                    	[[!catalogFilter?
+                    	&tpl=`contact`
+                    	&limit=`10`
+                    	&parents=`8`
+                    	&fields=`phone, position`]]
+                    </div>
                 </div>
-                [[pdoResources?
-                    &parents=`8`
-                    &tpl=`contact`
-                    &includeTVs=`phone, position`
-                    &sortby = `{"pagetitle":"ASC"}`
-                    &limit = 50
-                ]]
             </div>
         </div>
     </div>
