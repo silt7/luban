@@ -341,7 +341,7 @@
     <div class="container">
      <div class="row">
         <div class="col-lg-2 px-0" style="margin: 30px 3.5% 20px 0; text-align: center">
-            <a href="http://government.ru/" target="_blank"><img src="[[pathToTemplate]]/assets/img/banner/government.png""/></a>
+            <a href="http://government.ru/" target="_blank"><img src="[[pathToTemplate]]/assets/img/banner/government.png"/></a>
         </div>
         <div class="col-lg-2 px-0" style="margin: 30px 3.5% 20px 0; text-align: center">
             <a href="http://www.kremlin.ru/" target="_blank"><img src="[[pathToTemplate]]/assets/img/banner/kremlin.png"/></a>
@@ -376,5 +376,11 @@
     }
     .side-menu li:first-child {
         border-radius: 0 8px 0 0;
+    }
+    @media screen and (min-width: 900px) {
+        .side-menu div.submenu-big{
+            right: 100%;
+            left: auto !important;
+        }
     }
 </style>

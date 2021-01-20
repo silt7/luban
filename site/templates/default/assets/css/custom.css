@@ -44,6 +44,24 @@
     margin-top: 20px;
     width: 45%;
 }
+
+.resource b {color: #000 !important;}
+.resource table {width:100% !important;}
+.content a{
+    color: black;
+}
+.content a:hover{
+    opacity:0.5;
+}
+.content .genric-btn.info-border {
+    color: #0066af;
+    border: 1px solid #0066af;
+}
+.content .genric-btn.info-border:hover {
+    background: #0066af;
+    opacity:1;
+    color: #fff;
+}
 @media only screen and (min-width: 900px) {
     .progress-table-wrap {
         overflow-x: hidden;

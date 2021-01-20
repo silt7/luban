@@ -50,7 +50,7 @@ $modx->startTime= $tstart;
 $modx->initialize('web');
 
 //cache refresh;
-$modx->cacheManager->refresh();
+//$modx->cacheManager->refresh();
 
 /* execute the request handler */
 if (!MODX_API_MODE) {

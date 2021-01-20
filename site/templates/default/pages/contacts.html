@@ -3,7 +3,7 @@
         <form class="ajax-form col-lg-3">
             <div class="count-doc"><span>Всего докуметов: </span><span class="ajax-count"></span></div>
         	<!-- Sort Fields -->
-        	<input type="hidden" name="sortby" value="pageTitle">
+        	<input type="hidden" name="sortby" value="menuindex">
         	<input type="hidden" name="sortdir" value="ASC">
         	<!-- Sort End -->
 
@@ -20,14 +20,16 @@
                     <div class="table-head">
                         <div class="country ml-30">Имя</div>
                         <div class="percentage ml-30">Должность</div>
-                        <div class="serial ml-30">Телефон</div>
+                        <div class="serial ml-10">Телефон</div>
                     </div>
                     <div class="ajax-container">
                     	[[!catalogFilter?
                     	&tpl=`contact`
                     	&limit=`10`
                     	&parents=`8`
-                    	&fields=`phone, position`]]
+                    	&fields=`phone, position`
+                    	&sortby=`id`
+                	    &sortdir=`DESC`]]
                     </div>
                 </div>
             </div>

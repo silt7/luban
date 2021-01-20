@@ -10,6 +10,8 @@
         <!--<link rel="manifest" href="site.webmanifest">-->
 		<link rel="shortcut icon" type="image/x-icon" href="[[pathToTemplate]]/assets/img/favicon.ico">
 
+        <script src="./[[pathToTemplate]]/assets/js/vendor/jquery-1.12.4.min.js"></script>
+		<script src="./[[pathToTemplate]]/assets/libs/jquery-ui.min.js"></script>
 		<!-- CSS here -->
             <link rel="stylesheet" href="[[pathToTemplate]]/assets/css/bootstrap.min.css">
             <link rel="stylesheet" href="[[pathToTemplate]]/assets/css/owl.carousel.min.css">
@@ -46,9 +48,9 @@
                 {if $_modx->resource.menutitle == 'no_menu'}
                 <div class="col-12">
                 {else}
-                <div class="col-4">[[$sideMenu]]</div>
+                <div class="col-lg-4">[[$sideMenu]]</div>
         
-                <div class="col-8">
+                <div class="col-lg-8">
                 {/if}
                     [[*content]]
                 </div>
@@ -59,8 +61,7 @@
         <!-- JS here -->
         <!-- All JS Custom Plugins Link Here here -->
         <script src="./[[pathToTemplate]]/assets/js/vendor/modernizr-3.5.0.min.js"></script>
-        <!-- Jquery, Popper, Bootstrap -->
-        <script src="./[[pathToTemplate]]/assets/js/vendor/jquery-1.12.4.min.js"></script>
+        <!-- Popper, Bootstrap -->
         <script src="./[[pathToTemplate]]/assets/js/popper.min.js"></script>
         <script src="./[[pathToTemplate]]/assets/js/bootstrap.min.js"></script>
         <!-- Jquery Mobile Menu -->
@@ -102,5 +103,6 @@
         <script src="./[[pathToTemplate]]/assets/libs/bvi/js/js.cookie.js"></script>
         <script src="./[[pathToTemplate]]/assets/libs/bvi/js/bvi-init.js"></script>
         <script src="./[[pathToTemplate]]/assets/libs/bvi/js/bvi.min.js"></script>
+		
     </body>
 </html>

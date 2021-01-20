@@ -5,6 +5,7 @@
 <style>
     .side-menu{
         width: 100%;
+        position: relative;
     }
     .side-menu a{
         color: #002e5b;
@@ -61,5 +62,48 @@
     .side-menu ul.submenu li a{
         padding: 10px;
         transition: none;
+    }
+    @media screen and (min-width: 900px) {
+        .side-menu div.submenu-big{
+            position: absolute;
+            left: 95%;
+            top: 0;
+            width: 800px;
+            background: #f9f9ff;
+            height: 100%;
+            visibility: hidden;
+            opacity: 0;
+            z-index: 999;
+            -webkit-transition: all 0.3s ease-out 0s;
+            -moz-transition: all 0.3s ease-out 0s;
+            -ms-transition: all 0.3s ease-out 0s;
+            -o-transition: all 0.3s ease-out 0s;
+            transition: all 0.3s ease-out 0s;
+        }
+        .side-menu a:hover+div.submenu-big,
+        .side-menu div.submenu-big:hover{
+            visibility: visible;
+            opacity: 1;
+        }
+        .side-menu div.submenu-big hr{
+            border-bottom: 1px solid #0066af;
+            margin: 10px 0 0 0;
+        }
+        .side-menu div.submenu-big h5{
+            text-align: center;
+        }
+        .side-menu div.submenu-big a{
+            padding-left: 0;
+            justify-content: center;
+        }
+        .side-menu div.submenu-big a:hover{
+            background: none;
+            color: #002e5b;
+        }
+    }
+    @media screen and (max-width: 900px) {
+        .side-menu ul.submenu{
+            position: unset;
+        }
     }
 </style>
